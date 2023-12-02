@@ -65,16 +65,13 @@
 .photo-album ul{
 	display:flex;
 }
-
-.btn{
-    text-decoration: none;
-    color: #fff;
-    background-color: #e63946;
-    padding: 15px 40px;
-    transition: 0.4s;
+.add-button{
+	height:100px;
+	border-radius:30px;
 }
 
-.btn:hover{
+
+.add-button:hover{
     border: 2px solid #e63946;
     background-color: #fff;
     color: #e63946;
