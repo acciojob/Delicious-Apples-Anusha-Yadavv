@@ -5,3 +5,9 @@
 .photo-album ul{
 	display:flex;
 }
+.variant ul{
+	display:flex;
+}
+.product__info{
+	background-color:red;
+}
