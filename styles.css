@@ -16,6 +16,25 @@
     background-color: #fff;
 }
 .photo-main{
+    position: absolute;
+    top: 10.5%;
+    left: -60px;
+    width: 400px;
+    height: 450px;
+    background-color: #6a994e;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 25px;
+}
+
+.photo-main img{
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    width: 100%;
+    height: auto;
+}
+.photo-main{
 	background-color:green;
 }
 .photo-album ul{
@@ -25,7 +44,6 @@
 	display:flex;
 }
 .product__info{
-	background-color:yellow;
 }
 .btn{
     text-decoration: none;
