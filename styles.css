@@ -27,6 +27,19 @@
 	
 }
 	
+.variant ul{
+    margin: 10px 0;
+	display:flex;
+    gap: 30px;
+}
+
+.apples img{
+    padding: 5px;
+    width: 50px;
+    border: 2px solid #202020;
+    border-radius: 15px;
+}
+	
 .photo-main{
     position: absolute;
     top: 10.5%;
@@ -52,9 +65,7 @@
 .photo-album ul{
 	display:flex;
 }
-.variant ul{
-	display:flex;
-}
+
 .btn{
     text-decoration: none;
     color: #fff;
