@@ -1,1 +1,7 @@
 /* your code here */
+.photo-main{
+	background-color:green;
+}
+.photo-album ul{
+	display:flex;
+}
