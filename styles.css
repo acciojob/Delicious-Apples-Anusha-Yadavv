@@ -1,4 +1,20 @@
 /* your code here */
+.product{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #386641;
+}
+
+.product__photo{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    background-color: #fff;
+}
 .photo-main{
 	background-color:green;
 }
@@ -9,5 +25,18 @@
 	display:flex;
 }
 .product__info{
-	background-color:red;
+	background-color:yellow;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e63946;
+    padding: 15px 40px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    border: 2px solid #e63946;
+    background-color: #fff;
+    color: #e63946;
 }
